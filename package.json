@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx test"
+  },
+  "private": true,
+  "dependencies": {
+    "axios": "^1.0.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@nrwl/esbuild": "17.2.15-beta.10",
+    "@nrwl/eslint-plugin-nx": "17.2.15-beta.10",
+    "@nrwl/jest": "17.2.15-beta.10",
+    "@nrwl/linter": "17.2.15-beta.10",
+    "@nrwl/node": "17.2.15-beta.10",
+    "@nrwl/workspace": "17.2.15-beta.10",
+    "@types/jest": "28.1.1",
+    "@types/node": "18.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "esbuild": "^0.17.5",
+    "eslint": "~8.15.0",
+    "eslint-config-prettier": "8.1.0",
+    "fastify": "4.11.0",
+    "jest": "28.1.1",
+    "jest-environment-jsdom": "28.1.1",
+    "nx": "17.2.15-beta.10",
+    "prettier": "^2.6.2",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.9.1",
+    "typescript": "~4.8.2"
+  }
+}

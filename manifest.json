@@ -1,0 +1,7 @@
+[
+  {
+    "module": "@api/util",
+    "root": "util",
+    "main": "util/src/index.js"
+  }
+]
